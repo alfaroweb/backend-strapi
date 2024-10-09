@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_post_sections",
+  "info": {
+    "displayName": "Post Section"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "text"
+    },
+    "sectionBody": {
+      "type": "blocks"
+    }
+  }
+}

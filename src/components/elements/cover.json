@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_covers",
+  "info": {
+    "displayName": "Cover",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "src": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "text"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    }
+  }
+}
