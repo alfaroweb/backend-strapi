@@ -15,7 +15,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     seo: Schema.Attribute.Component<'elements.seo', false>;
     title: Schema.Attribute.Text;
     description: Schema.Attribute.Text;
-    slug: Schema.Attribute.UID;
+    slug: Schema.Attribute.UID<'title'>;
     cover: Schema.Attribute.Component<'elements.cover', false>;
     dynamic: Schema.Attribute.DynamicZone<['elements.post-section']>;
     createdAt: Schema.Attribute.DateTime;

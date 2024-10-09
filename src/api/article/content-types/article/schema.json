@@ -25,7 +25,8 @@
       "type": "text"
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title"
     },
     "cover": {
       "type": "component",
